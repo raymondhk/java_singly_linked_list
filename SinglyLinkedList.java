@@ -41,7 +41,7 @@ public class SinglyLinkedList {
             this.head = null;
         } else {
             Node current = this.head;
-            while(current.next != null) {
+            while(current.next.next != null) {
                 current = current.next;
             }
             current.next = null;
